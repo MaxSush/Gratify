@@ -16,9 +16,9 @@ int main(int argc, char** argv) {
 
 	GF_TRACE("Application error");
 	GF_INFO("Applicati<on error");
-	GFWARN("Application error");
-	GFCRITICAL("Application error");
-	GFERROR("Application error"); 
+	GF_WARN("Application error");
+	GF_CRITICAL("Application error");
+	GF_ERROR("Application error"); 
 
 	auto app = Gratify::CreateApplication();
 	app->Run();

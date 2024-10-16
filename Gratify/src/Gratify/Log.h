@@ -3,6 +3,7 @@
 #include <memory>
 
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Gratify {
 
@@ -32,8 +33,8 @@ namespace Gratify {
 
 #define GF_TRACE(...)			::Gratify::Log::GetClientLogger()->trace(__VA_ARGS__)
 #define GF_INFO(...)			::Gratify::Log::GetClientLogger()->info(__VA_ARGS__)
-#define GFWARN(...)				::Gratify::Log::GetClientLogger()->warn(__VA_ARGS__)
-#define GFCRITICAL(...)			::Gratify::Log::GetClientLogger()->critical(__VA_ARGS__)
-#define GFERROR(...)			::Gratify::Log::GetClientLogger()->error(__VA_ARGS__)
+#define GF_WARN(...)			::Gratify::Log::GetClientLogger()->warn(__VA_ARGS__)
+#define GF_CRITICAL(...)		::Gratify::Log::GetClientLogger()->critical(__VA_ARGS__)
+#define GF_ERROR(...)			::Gratify::Log::GetClientLogger()->error(__VA_ARGS__)
 
 

@@ -4,6 +4,9 @@
     <Filter Include="Gratify">
       <UniqueIdentifier>{BB3F2F6E-271F-AE09-3037-39E09C95146B}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Gratify\Event">
+      <UniqueIdentifier>{4C61F257-B821-6E8E-815C-B70BEDDBB26A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Gratify.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Gratify\EntryPoint.h">
       <Filter>Gratify</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gratify\Event\ApplicationEvent.h">
+      <Filter>Gratify\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gratify\Event\Event.h">
+      <Filter>Gratify\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gratify\Event\KeyEvent.h">
+      <Filter>Gratify\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gratify\Event\MouseEvent.h">
+      <Filter>Gratify\Event</Filter>
     </ClInclude>
     <ClInclude Include="src\Gratify\Log.h">
       <Filter>Gratify</Filter>
