@@ -1,3 +1,4 @@
 [submodule "Gratify/Vendor/spdlog"]
 	path = Gratify/Vendor/spdlog
 	url = https://github.com/gabime/spdlog.git
+

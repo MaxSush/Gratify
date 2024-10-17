@@ -1,9 +1,9 @@
 #pragma once
 
+#include "gfpch.h"
+
 #include "Gratify/Core.h"
 
-#include <string>
-#include <functional>
 
 namespace Gratify {
 

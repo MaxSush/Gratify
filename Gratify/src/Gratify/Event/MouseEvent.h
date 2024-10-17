@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Gratify 
 {
 	class GFAPI MouseMovedEvent : public Event

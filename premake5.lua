@@ -24,6 +24,10 @@ project "Gratify"
         "%{prj.name}/src/**.cpp"
     }
 
+    pchheader "gfpch.h"                         -- The precompiled header file (typically a .h file)
+    pchsource "%{prj.name}/src/gfpch.cpp"       -- The source file that includes the pch header (must be a .cpp file)
+
+
     includedirs
     {
         "%{prj.name}/src",

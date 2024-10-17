@@ -1,3 +1,5 @@
+#include "gfpch.h"
+
 #include "Application.h"
 #include "Gratify/Event/ApplicationEvent.h"
 #include "Gratify/Log.h"
